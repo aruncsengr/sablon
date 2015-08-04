@@ -165,6 +165,17 @@ For more complex conditionals you can use a predicate like so:
 «body:endIf»
 ```
 
+#### Images
+
+You can insert images inside the document.
+
+```
+«@assessment.image:start»
+  ... Place a placeholder image ...
+
+«@assessment.image:end»
+```
+
 #### Loops
 
 Loops repeat parts of the document.
